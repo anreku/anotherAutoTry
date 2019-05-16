@@ -10,7 +10,7 @@ public class TestWithExtendFromBaseTest extends BaseTest {
     public void testTapToSkip() throws  Exception {
 
         waitForElementAndClick(By.id("tv_skip"),
-                "ne nauti 1",
+                "ne nauti 1 locator",
                 5);
     }
 
